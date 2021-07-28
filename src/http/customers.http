@@ -1,0 +1,36 @@
+# customers API
+
+###
+# baseURL
+@baseURL = http://localhost:3000
+
+###
+# Find All Customers
+GET {{baseURL}}/customers
+
+###
+# Find Customer By Id
+GET {{baseURL}}/customers/1
+
+
+###
+# Add Customer
+POST {{baseURL}}/customers
+Content-Type: application/json
+
+{
+    "email": "example@gmail.com",
+}
+
+###
+# Edit Customer By Id
+PUT {{baseURL}}/customers/1
+Content-Type: application/json
+
+{
+    "email": "example@gmail.com",
+}
+
+###
+# Del Customer By Id
+DELETE {{baseURL}}/customers/1
