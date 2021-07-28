@@ -30,7 +30,7 @@ open http://localhost:8080/api-docs/
 
 ## Missing Features
 
-I only implemented Customer model are routes; nothig for orders, items etc.
+I only implemented a Customer model and routes; nothing for orders, items etc.
 
 As `id` is currently `null`, there is no way to update a record. You can modify existing customers though.
 
